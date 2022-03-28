@@ -1,19 +1,18 @@
 import React from "react";
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
+const image = {
+  uri: "https://reactjs.org/logo-og.png"
+};
 
-const image = { uri: "https://reactjs.org/logo-og.png" };
-
-const App = () => (
-  <View style={styles.container}>
+const App = () => <View style={styles.container}>
     <ImageBackground source={image} resizeMode="cover" style={styles.image}>
       <Text style={styles.text}>Inside</Text>
     </ImageBackground>
-  </View>
-);
+  </View>;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1
   },
   image: {
     flex: 1,
@@ -28,5 +27,4 @@ const styles = StyleSheet.create({
     backgroundColor: "#000000c0"
   }
 });
-
 export default App;

@@ -27,6 +27,24 @@ const Untitled3 = () => {
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
+    }}>Lorem ipsum… </Text><Text style={{
+      left: 79,
+      top: 229,
+      position: "absolute",
+      width: 100,
+      height: 50,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0
+    }}>Lorem ipsum… </Text><Text style={{
+      left: 71,
+      top: 47,
+      position: "absolute",
+      width: 100,
+      height: 50,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0
     }}>Lorem ipsum… </Text></View>;
 };
 

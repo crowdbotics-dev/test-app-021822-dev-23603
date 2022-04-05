@@ -19,15 +19,6 @@ const Untitled3 = () => {
       borderRadius: 0,
       color: "#777777"
     }}></View><Text style={{
-      left: 75,
-      top: 143,
-      position: "absolute",
-      width: 100,
-      height: 50,
-      lineHeight: 14,
-      fontSize: 14,
-      borderRadius: 0
-    }}>Lorem ipsum… </Text><Text style={{
       left: 79,
       top: 229,
       position: "absolute",

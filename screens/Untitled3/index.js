@@ -9,16 +9,7 @@ const Untitled3 = () => {
     position: 'relative',
     height: '100%'
   }}>
-      <View style={{
-      left: 11,
-      top: 43,
-      position: "absolute",
-      height: 60,
-      width: 140,
-      backgroundColor: "#E4E4E4",
-      borderRadius: 0,
-      color: "#777777"
-    }}></View><Text style={{
+      <Text style={{
       left: 79,
       top: 229,
       position: "absolute",

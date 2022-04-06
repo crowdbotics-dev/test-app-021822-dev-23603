@@ -10,15 +10,6 @@ const Untitled3 = () => {
     height: '100%'
   }}>
       <Text style={{
-      left: 79,
-      top: 229,
-      position: "absolute",
-      width: 100,
-      height: 50,
-      lineHeight: 14,
-      fontSize: 14,
-      borderRadius: 0
-    }}>Lorem ipsum… </Text><Text style={{
       left: 71,
       top: 47,
       position: "absolute",
@@ -27,7 +18,34 @@ const Untitled3 = () => {
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }}>Lorem ipsum… </Text></View>;
+    }}>Lorem ipsum… </Text><View style={{
+      left: 23,
+      top: 113,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View><View style={{
+      left: 44,
+      top: 237,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View><View style={{
+      left: 36,
+      top: 177,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View></View>;
 };
 
 export default Untitled3;

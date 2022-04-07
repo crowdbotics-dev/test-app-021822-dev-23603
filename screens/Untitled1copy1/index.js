@@ -1,7 +1,7 @@
 import React from "react";
 import { View } from "react-native";
 
-const Untitled1 = () => {
+const Untitled1Copy1 = () => {
   return <View style={{
     backgroundColor: '#f0f0f1',
     padding: 10,
@@ -38,4 +38,4 @@ const Untitled1 = () => {
     }}></View></View>;
 };
 
-export default Untitled1;
+export default Untitled1Copy1;

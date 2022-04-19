@@ -26,15 +26,6 @@ const Untitled1Copy1 = () => {
       backgroundColor: "#E4E4E4",
       borderRadius: "50%",
       color: "#777777"
-    }}></View><View style={{
-      left: 24,
-      top: 162,
-      position: "absolute",
-      height: 60,
-      width: 140,
-      backgroundColor: "#E4E4E4",
-      borderRadius: 0,
-      color: "#777777"
     }}></View></View>;
 };
 

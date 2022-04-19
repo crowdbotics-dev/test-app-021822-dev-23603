@@ -1,7 +1,8 @@
+import { Text } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
-const Untitled1Copy1 = () => {
+const Untitled2 = () => {
   return <View style={{
     backgroundColor: '#f0f0f1',
     padding: 10,
@@ -9,8 +10,8 @@ const Untitled1Copy1 = () => {
     height: '100%'
   }}>
       <View style={{
-      left: 43,
-      top: 72,
+      left: -41.49150848388672,
+      top: 15,
       position: "absolute",
       height: 60,
       width: 140,
@@ -18,15 +19,24 @@ const Untitled1Copy1 = () => {
       borderRadius: 0,
       color: "#777777"
     }}></View><View style={{
-      left: 23,
-      top: 135,
+      left: 65.38351440429688,
+      top: 128,
       position: "absolute",
-      height: 125,
+      height: 60,
       width: 140,
       backgroundColor: "#E4E4E4",
-      borderRadius: "50%",
+      borderRadius: 0,
       color: "#777777"
-    }}></View></View>;
+    }}></View><Text style={{
+      left: 105.38351440429688,
+      top: 75,
+      position: "absolute",
+      width: 100,
+      height: 50,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0
+    }}>Lorem ipsum… </Text></View>;
 };
 
-export default Untitled1Copy1;
+export default Untitled2;

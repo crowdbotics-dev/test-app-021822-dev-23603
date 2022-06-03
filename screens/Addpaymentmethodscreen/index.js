@@ -4,7 +4,16 @@ import { Text, StyleSheet, View } from "react-native";
 const AddPaymentMethodScreen = params => {
   return <View style={styles.container}>
       <Text style={styles.headingTxt}>Add Payment Method Screen</Text>
-    </View>;
+    <View style={{
+      left: 16,
+      top: 29,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View></View>;
 };
 
 const styles = StyleSheet.create({

@@ -3,7 +3,11 @@ import { Text, StyleSheet, View } from "react-native";
 
 const AddPaymentMethodScreen = params => {
   return <View style={styles.container}>
-      <Text style={styles.headingTxt}>Add Payment Method Screen</Text>
+      <Text style={{
+      transform: "rotate(6deg)",
+      top: 146,
+      left: 0
+    }}>Add Payment Method Screen</Text>
     <View style={{
       left: 16,
       top: 29,
